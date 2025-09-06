@@ -11,7 +11,7 @@ export default function Index() {
           <Ionicons name="arrow-back" size={25} />
           <Image source={require('@/assets/images/logo.png')} />
         </View>
-        <Text style={styles.largeText}>Sign in to your</Text>
+        <Text style={styles.largeText}>Create Your</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>
           Enter your email and password to sign in.
@@ -29,11 +29,18 @@ export default function Index() {
               <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
             </View>
           </View>
+          <View style={{ marginTop: 20 }}>
+            <Text style={styles.placeholderText}>Confirm Password</Text>
+            <View style={styles.passwordGroup}>
+              <TextInput style={{ flex: 1 }} />
+              <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
+            </View>
+          </View>
           <Text style={styles.forgotPasswordText}>Forgot password?</Text>
         </View>
 
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Sign in</Text>
+          <Text style={styles.buttonText}>Create</Text>
         </TouchableOpacity>
 
         <View style={styles.dividerGroup}>
@@ -83,8 +90,8 @@ export default function Index() {
         </View>
 
         <View style={styles.subTextGroup}>
-          <Text style={styles.subText}>Don't have an account?</Text>
-          <Text style={styles.subTextJoin}>Join now</Text>
+          <Text style={styles.subText}>Do you have an account?</Text>
+          <Text style={styles.subTextJoin}>Sign in</Text>
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
