@@ -1,5 +1,5 @@
 import { PropertyListingProps } from "@/interfaces";
-import { styles } from "@/styles/_propertyCardStyle";
+import { styles } from "@/styles/propertyCardStyle";
 import EvilIcons from "@expo/vector-icons/EvilIcons";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
